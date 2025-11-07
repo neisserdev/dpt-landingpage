@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin">
+    <title>Accesibilidad | Departamento de Informática</title>YPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaración de Accesibilidad | Departamento de Informática</title>
+ <link rel="stylesheet" href="styles-components_Version1.css">
+    <link rel="stylesheet" href="styles-animations-responsive_Version1.css">
+    <link rel="stylesheet" href="styles-forms-grid_Version1.css">
+    <link rel="stylesheet" href="styles-red-theme_Version1.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="legal-pages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="8" fill="#2563EB"/>
+                        <path d="M12 12H28V16H12V12Z" fill="white"/>
+                        <path d="M12 18H28V22H12V18Z" fill="white"/>
+                        <path d="M12 24H22V28H12V24Z" fill="white"/>
+                    </svg>
+                    <span>Depto. Informática</span>
+                </a>
+                <nav class="nav" id="nav">
+                    <a href="index.html#inicio" class="nav-link">Inicio</a>
+                    <a href="index.html#carreras" class="nav-link">Carreras</a>
+                    <a href="index.html#investigacion" class="nav-link">Investigación</a>
+                    <a href="index.html#profesores" class="nav-link">Profesores</a>
+                    <a href="index.html#contacto" class="nav-link">Contacto</a>
+                </nav>
+                <button class="btn-primary">Acceso Estudiantes</button>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Legal Content -->
+    <main class="legal-page">
+        <div class="container">
+            <div class="legal-header">
+                <a href="index.html" class="back-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="19" y1="12" x2="5" y2="12"/>
+                        <polyline points="12 19 5 12 12 5"/>
+                    </svg>
+                    Volver al inicio
+                </a>
+                <h1 class="legal-title">Declaración de Accesibilidad</h1>
+                <p class="legal-date">Última actualización: 7 de noviembre de 2025</p>
+            </div>
+
+            <div class="legal-content">
+                <section class="legal-section">
+                    <h2>Nuestro Compromiso con la Accesibilidad</h2>
+                    <p>
+                        El Departamento de Informática de la Universidad está comprometido con garantizar 
+                        la accesibilidad digital para todas las personas, incluidas aquellas con discapacidades. 
+                        Estamos continuamente mejorando la experiencia del usuario para todos y aplicando los 
+                        estándares de accesibilidad relevantes.
+                    </p>
+                    <p>
+                        Creemos que todos los visitantes de nuestro sitio web, independientemente de su 
+                        capacidad o tecnología, deben poder acceder fácilmente a la información y 
+                        funcionalidades que ofrecemos.
+                    </p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Estándares de Conformidad</h2>
+                    <p>
+                        Nos esforzamos por cumplir con los estándares internacionales de accesibilidad web:
+                    </p>
+                    
+                    <div class="standard-card">
+                        <h3>WCAG 2.1 Nivel AA</h3>
+                        <p>
+                            Nuestro sitio web está diseñado para cumplir con las Pautas de Accesibilidad 
+                            para el Contenido Web (WCAG) 2.1 en el Nivel AA. Estas pautas explican cómo 
+                            hacer que el contenido web sea más accesible para personas con discapacidades.
+                        </p>
+                    </div>
+
+                    <div class="standard-card">
+                        <h3>Section 508</h3>
+                        <p>
+                            Nos esforzamos por cumplir con los estándares de la Section 508 de la Ley de 
+                            Rehabilitación de Estados Unidos, que establecen requisitos de accesibilidad 
+                            para tecnología de información electrónica.
+                        </p>
+                    </div>
+
+                    <div class="standard-card">
+                        <h3>EN 301 549</h3>
+                        <p>
+                            Trabajamos para alinearnos con el estándar europeo EN 301 549, que especifica 
+                            requisitos de accesibilidad aplicables a productos y servicios TIC.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Características de Accesibilidad</h2>
+                    <p>
+                        Nuestro sitio web incluye las siguientes características de accesibilidad:
+                    </p>
+
+                    <div class="accessibility-features">
+                        <div class="feature-card">
+                            <div class="feature-icon">⌨️</div>
+                            <h4>Navegación por Teclado</h4>
+                            <p>
+                                Todo el sitio web es navegable usando únicamente el teclado. Puede usar 
+                                Tab, Shift+Tab, Enter y las teclas de flecha para navegar.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🔊</div>
+                            <h4>Lectores de Pantalla</h4>
+                            <p>
+                                Compatible con tecnologías de asistencia como JAWS, NVDA, VoiceOver y 
+                                TalkBack. Incluimos etiquetas ARIA apropiadas.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🎨</div>
+                            <h4>Contraste de Color</h4>
+                            <p>
+                                Mantenemos una relación de contraste de al menos 4.5:1 entre el texto 
+                                y el fondo, cumpliendo con WCAG AA.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">📱</div>
+                            <h4>Diseño Responsive</h4>
+                            <p>
+                                El sitio se adapta a diferentes tamaños de pantalla y dispositivos, 
+                                incluyendo móviles, tablets y computadoras de escritorio.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🔍</div>
+                            <h4>Ampliación de Texto</h4>
+                            <p>
+                                El texto puede ampliarse hasta un 200% sin pérdida de contenido o 
+                                funcionalidad usando las herramientas del navegador.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🖱️</div>
+                            <h4>Áreas de Click Grandes</h4>
+                            <p>
+                                Los botones y enlaces tienen áreas de click amplias (mínimo 44x44 píxeles) 
+                                para facilitar la interacción.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">📝</div>
+                            <h4>Texto Alternativo</h4>
+                            <p>
+                                Todas las imágenes incluyen texto alternativo descriptivo para usuarios 
+                                de lectores de pantalla.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🎬</div>
+                            <h4>Subtítulos y Transcripciones</h4>
+                            <p>
+                                El contenido multimedia incluye subtítulos y transcripciones cuando 
+                                sea aplicable.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">⏸️</div>
+                            <h4>Control de Animaciones</h4>
+                            <p>
+                                Respetamos las preferencias de movimiento reducido del sistema operativo 
+                                (prefers-reduced-motion).
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🔗</div>
+                            <h4>Enlaces Descriptivos</h4>
+                            <p>
+                                Los enlaces tienen textos descriptivos que indican claramente su destino 
+                                o función.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">📋</div>
+                            <h4>Estructura Clara</h4>
+                            <p>
+                                Uso apropiado de encabezados (H1-H6) y estructura semántica HTML5 
+                                para facilitar la navegación.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">⚠️</div>
+                            <h4>Mensajes de Error Claros</h4>
+                            <p>
+                                Los formularios proporcionan mensajes de error claros y sugerencias 
+                                para corregir problemas.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Tecnologías Compatibles</h2>
+                    <p>
+                        Nuestro sitio web está diseñado para ser compatible con las siguientes tecnologías:
+                    </p>
+
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <h4>Navegadores</h4>
+                            <ul>
+                                <li>Chrome (últimas 2 versiones)</li>
+                                <li>Firefox (últimas 2 versiones)</li>
+                                <li>Safari (últimas 2 versiones)</li>
+                                <li>Edge (últimas 2 versiones)</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-item">
+                            <h4>Lectores de Pantalla</h4>
+                            <ul>
+                                <li>JAWS (Windows)</li>
+                                <li>NVDA (Windows)</li>
+                                <li>VoiceOver (macOS/iOS)</li>
+                                <li>TalkBack (Android)</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-item">
+                            <h4>Sistemas Operativos</h4>
+                            <ul>
+                                <li>Windows 10/11</li>
+                                <li>macOS (últimas 2 versiones)</li>
+                                <li>iOS (últimas 2 versiones)</li>
+                                <li>Android (últimas 2 versiones)</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-item">
+                            <h4>Tecnologías de Asistencia</h4>
+                            <ul>
+                                <li>Software de magnificación</li>
+                                <li>Software de reconocimiento de voz</li>
+                                <li>Teclados alternativos</li>
+                                <li>Switches y dispositivos de entrada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Atajos de Teclado</h2>
+                    <p>
+                        Para facilitar la navegación, hemos implementado los siguientes atajos de teclado:
+                    </p>
+
+                    <div class="keyboard-shortcuts">
+                        <div class="shortcut-item">
+                            <kbd>Tab</kbd>
+                            <span>Navegar al siguiente elemento interactivo</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>Shift</kbd> + <kbd>Tab</kbd>
+                            <span>Navegar al elemento interactivo anterior</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>Enter</kbd> o <kbd>Espacio</kbd>
+                            <span>Activar enlaces y botones</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>Esc</kbd>
+                            <span>Cerrar modales y menús desplegables</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>↑</kbd> <kbd>↓</kbd>
+                            <span>Navegar en menús y listas desplegables</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>Home</kbd>
+                            <span>Ir al inicio de la página</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>End</kbd>
+                            <span>Ir al final de la página</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Limitaciones Conocidas</h2>
+                    <p>
+                        A pesar de nuestros mejores esfuerzos, algunas partes del sitio web pueden 
+                        no ser completamente accesibles. Estamos trabajando activamente para mejorar 
+                        las siguientes áreas:
+                    </p>
+
+                    <div class="limitation-list">
+                        <div class="limitation-item">
+                            <h4>Contenido de Terceros</h4>
+                            <p>
+                                Algunos contenidos incrustados de terceros (videos, mapas, widgets) 
+                                pueden no cumplir completamente con nuestros estándares de accesibilidad.
+                            </p>
+                            <p><strong>Acción:</strong> Estamos trabajando con proveedores para mejorar 
+                            la accesibilidad de estos contenidos.</p>
+                        </div>
+
+                        <div class="limitation-item">
+                            <h4>Documentos PDF Antiguos</h4>
+                            <p>
+                                Algunos documentos PDF publicados antes de 2023 pueden no ser totalmente 
+                                accesibles para lectores de pantalla.
+                            </p>
+                            <p><strong>Acción:</strong> Estamos en proceso de remediar estos documentos 
+                            y crear versiones accesibles alternativas.</p>
+                        </div>
+
+                        <div class="limitation-item">
+                            <h4>Contenido Multimedia Heredado</h4>
+                            <p>
+                                Videos y audios más antiguos pueden carecer de subtítulos o transcripciones.
+                            </p>
+                            <p><strong>Acción:</strong> Estamos agregando gradualmente subtítulos y 
+                            transcripciones a todo el contenido multimedia.</p>
+                        </div>
+
+                        <div class="limitation-item">
+                            <h4>Imágenes Complejas</h4>
+                            <p>
+                                Algunos gráficos técnicos complejos o diagramas pueden requerir 
+                                descripciones más detalladas.
+                            </p>
+                            <p><strong>Acción:</strong> Estamos implementando descripciones largas 
+                            y versiones de texto alternativas para gráficos complejos.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Evaluación y Pruebas</h2>
+                    <p>
+                        Evaluamos regularmente la accesibilidad de nuestro sitio web mediante:
+                    </p>
+
+                    <ul>
+                        <li><strong>Auditorías Automatizadas:</strong> Utilizamos herramientas como Lighthouse, 
+                        axe DevTools y WAVE para identificar problemas de accesibilidad</li>
+                        <li><strong>Pruebas Manuales:</strong> Nuestro equipo realiza pruebas manuales 
+                        exhaustivas con tecnologías de asistencia</li>
+                        <li><strong>Pruebas de Usuario:</strong> Involucra a usuarios con discapacidades 
+                        en el proceso de pruebas</li>
+                        <li><strong>Revisiones de Código:</strong> Revisamos el código para asegurar 
+                        conformidad con estándares de accesibilidad</li>
+                        <li><strong>Evaluaciones de Terceros:</strong> Contratamos expertos externos en 
+                        accesibilidad para auditorías independientes</li>
+                    </ul>
+
+                    <p>
+                        <strong>Última evaluación completa:</strong> Octubre 2025<br>
+                        <strong>Próxima evaluación programada:</strong> Abril 2026
+                    </p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Feedback y Soporte</h2>
+                    <p>
+                        Su feedback es importante para nosotros. Si encuentra una barrera de accesibilidad 
+                        en nuestro sitio web o tiene sugerencias sobre cómo podemos mejorar, por favor 
+                        contáctenos:
+                    </p>
+
+                    <div class="contact-info-box">
+                        <div class="contact-detail">
+                            <h4>Coordinador de Accesibilidad Digital</h4>
+                            <p>
+                                <strong>Nombre:</strong> Dr. Roberto Méndez<br>
+                                <strong>Email:</strong> <a href="mailto:accesibilidad@informatica.universidad.edu">accesibilidad@informatica.universidad.edu</a><br>
+                                <strong>Teléfono:</strong> +52 (55) 1234-5678 ext. 300<br>
+                                <strong>Horario:</strong> Lunes a Viernes, 9:00 - 17:00
+                            </p>
+                        </div>
+
+                        <div class="contact-detail">
+                            <h4>Dirección Postal</h4>
+                            <p>
+                                Departamento de Informática<br>
+                                Oficina de Accesibilidad Digital<br>
+                                Avenida Universidad 1234<br>
+                                Ciudad Universitaria, CP 12345
+                            </p>
+                        </div>
+                    </div>
+
+                    <p>
+                        Nos comprometemos a responder a todas las consultas de accesibilidad dentro 
+                        de 2 días hábiles y a trabajar con usted para proporcionar la información o 
+                        funcionalidad solicitada en un formato accesible alternativo.
+                    </p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Proceso de Resolución de Quejas</h2>
+                    <p>
+                        Si no está satisfecho con nuestra respuesta a su preocupación de accesibilidad, 
+                        puede seguir nuestro proceso formal de quejas:
+                    </p>
+
+                    <ol class="process-list">
+                        <li>
+                            <strong>Paso 1: Contacto Inicial</strong>
+                            <p>Comuníquese con nuestro Coordinador de Accesibilidad Digital (información arriba)</p>
+                        </li>
+                        <li>
+                            <strong>Paso 2: Investigación</strong>
+                            <p>Investigaremos su queja dentro de 5 días hábiles y proporcionaremos una 
+                            respuesta detallada</p>
+                        </li>
+                        <li>
+                            <strong>Paso 3: Escalamiento</strong>
+                            <p>Si no está satisfecho con la resolución, puede escalar la queja al Director 
+                            del Departamento de Informática</p>
+                        </li>
+                        <li>
+                            <strong>Paso 4: Revisión Institucional</strong>
+                            <p>Como último recurso, puede contactar a la Oficina de Equidad e Inclusión 
+                            de la Universidad</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Formatos Alternativos</h2>
+                    <p>
+                        Si necesita información de nuestro sitio web en un formato alternativo, podemos 
+                        proporcionarla en:
+                    </p>
+
+                    <div class="format-grid">
+                        <div class="format-item">
+                            <h4>📄 Documentos de Texto</h4>
+                            <p>Versiones en texto plano de contenido web</p>
+                        </div>
+                        <div class="format-item">
+                            <h4>🔊 Audio</h4>
+                            <p>Versiones en audio de documentos y contenido</p>
+                        </div>
+                        <div class="format-item">
+                            <h4>📝 Braille</h4>
+                            <p>Documentos en Braille (bajo solicitud)</p>
+                        </div>
+                        <div class="format-item">
+                            <h4>📖 Letra Grande</h4>
+                            <p>Documentos con texto ampliado</p>
+                        </div>
+                        <div class="format-item">
+                            <h4>📧 Email</h4>
+                            <p>Información enviada directamente por email</p>
+                        </div>
+                        <div class="format-item">
+                            <h4>☎️ Teléfono</h4>
+                            <p>Asistencia telefónica personalizada</p>
+                        </div>
+                    </div>
+
+                    <p>
+                        Contáctenos para solicitar contenido en un formato alternativo. Haremos todo 
+                        lo posible para proporcionar el formato solicitado dentro de 5 días hábiles.
+                    </p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Capacitación y Concienciación</h2>
+                    <p>
+                        El Departamento de Informática está comprometido con la educación continua sobre 
+                        accesibilidad digital:
+                    </p>
+
+                    <ul>
+                        <li>Todo el personal que crea contenido web recibe capacitación en accesibilidad</li>
+                        <li>Los desarrolladores están capacitados en codificación accesible y estándares WCAG</li>
+                        <li>Realizamos talleres regulares sobre diseño inclusivo</li>
+                        <li>Proporcionamos recursos y guías de mejores prácticas</li>
+                        <li>Fomentamos una cultura de inclusión digital en toda la organización</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Mejora Continua</h2>
+                    <p>
+                        La accesibilidad es un viaje continuo, no un destino. Nuestro plan de mejora incluye:
+                    </p>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Corto Plazo (0-6 meses)</h4>
+                            <ul>
+                                <li>Remediar problemas críticos de accesibilidad identificados</li>
+                                <li>Implementar pruebas automatizadas en el proceso de desarrollo</li>
+                                <li>Mejorar el contraste de color en componentes específicos</li>
+                                <li>Añadir más descripciones de texto alternativo detalladas</li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline-item">
+                            <h4>Mediano Plazo (6-12 meses)</h4>
+                            <ul>
+                                <li>Actualizar todos los documentos PDF a formatos accesibles</li>
+                                <li>Implementar un sistema de gestión de contenido accesible</li>
+                                <li>Desarrollar guías de estilo de accesibilidad</li>
+                                <li>Realizar auditoría completa con usuarios con discapacidades</li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline-item">
+                            <h4>Largo Plazo (12+ meses)</h4>
+                            <ul>
+                                <li>Lograr certificación de conformidad WCAG 2.1 AAA donde sea posible</li>
+                                <li>Desarrollar un programa de embajadores de accesibilidad</li>
+                                <li>Crear recursos de aprendizaje sobre accesibilidad para la comunidad</li>
+                                <li>Establecer un laboratorio de pruebas de tecnologías de asistencia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Recursos Adicionales</h2>
+                    <p>
+                        Para más información sobre accesibilidad web y tecnologías de asistencia:
+                    </p>
+
+                    <ul>
+                        <li><strong>W3C Web Accessibility Initiative (WAI):</strong> <a href="https://www.w3.org/WAI/" target="_blank" rel="noopener">www.w3.org/WAI</a></li>
+                        <li><strong>WebAIM (Web Accessibility In Mind):</strong> <a href="https://webaim.org/" target="_blank" rel="noopener">webaim.org</a></li>
+                        <li><strong>Accesibilidad.gob.mx:</strong> Portal de accesibilidad del gobierno mexicano</li>
+                        <li><strong>Inclusive Design Principles:</strong> <a href="https://inclusivedesignprinciples.org/" target="_blank" rel="noopener">inclusivedesignprinciples.org</a></li>
+                        <li><strong>A11Y Project:</strong> <a href="https://www.a11yproject.com/" target="_blank" rel="noopener">a11yproject.com</a></li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>Declaración de Conformidad</h2>
+                    <div class="conformance-statement">
+                        <p>
+                            <strong>Sitio Web:</strong> www.informatica.universidad.edu<br>
+                            <strong>Nivel de Conformidad:</strong> WCAG 2.1 Nivel AA (Parcialmente Conforme)<br>
+                            <strong>Fecha de la Declaración:</strong> 7 de noviembre de 2025<br>
+                            <strong>Última Revisión:</strong> 7 de noviembre de 2025<br>
+                            <strong>Tecnologías:</strong> HTML5, CSS3, JavaScript (ES6+), ARIA<br>
+                            <strong>Agentes de Usuario:</strong> Chrome, Firefox, Safari, Edge (últimas versiones)
+                        </p>
+                    </div>
+
+                    <p>
+                        Esta declaración de accesibilidad se aplica al dominio principal del 
+                        Departamento de Informática. Es posible que algunos subdominios o servicios 
+                        externos vinculados tengan diferentes niveles de accesibilidad.
+                    </p>
+                </section>
+
+                <div class="legal-footer">
+                    <p>
+                        <strong>Nota:</strong> Esta página de accesibilidad se actualiza regularmente 
+                        para reflejar nuestro progreso continuo en hacer que nuestro sitio web sea más 
+                        accesible para todos los usuarios.
+                    </p>
+                    <p>
+                        Agradecemos su paciencia mientras trabajamos para mejorar la accesibilidad de 
+                        nuestro sitio web y valoramos su feedback en este proceso.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4 class="footer-title">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#inicio">Inicio</a></li>
+                        <li><a href="index.html#sobre-nosotros">Sobre Nosotros</a></li>
+                        <li><a href="index.html#carreras">Programas Académicos</a></li>
+                        <li><a href="index.html#investigacion">Investigación</a></li>
+                        <li><a href="index.html#profesores">Profesores</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Enlaces Legales</h4>
+                    <ul class="footer-links">
+                        <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="terminos-uso.html">Términos de Uso</a></li>
+                        <li><a href="accesibilidad.html">Accesibilidad</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Contáctanos</h4>
+                    <div class="footer-contact">
+                        <ul class="footer-links">
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; margin-right: 8px;">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                +53 31343102 Ext: 504
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; margin-right: 8px;">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                +5359948617
+                            </li>
+                        </ul>
+                        <p class="footer-contact-subtitle" style="margin-top: 16px;">Webmaster:</p>
+                        <ul class="footer-links">
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; margin-right: 8px;">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <a href="mailto:webmaster@ult.edu.cu">webmaster@ult.edu.cu</a>
+                            </li>
+                        </ul>
+                        <div style="margin-top: 20px;">
+                            <a href="formulario-contacto.html" class="footer-contact-link">Ir a formulario de contacto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Redes Sociales</h4>
+                    <div class="footer-social-column">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Departamento de Informática - Universidad. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="legal-pages.js"></script>
+</body>
+</html>
